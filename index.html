@@ -27,7 +27,17 @@
     <section class="main__section-inputs">
         <h2 class="main__title--h2">Заголовок h2</h2>
         <form class="main__form">
-            <div class="main__range-input"></div>
+            <div class="main__range-input">
+                <p class="main__range-title">Выберите диапазон</p>
+                <div class="main__range-values">
+                    <input class="input-range__input-number input-range__input-number--from" type="number" placeholder="от 0" min="0" max="150">
+                    <input class="input-range__input-number input-range__input-number--to" type="number" placeholder="до 150" min="0" max="150">
+                </div>
+                <div class="main__range-container">
+                    <input class="input-range__range input-range__range--min" type="range" min="0" max="150">
+                    <input class="input-range__range input-range__range--max " type="range" min="0" max="150">
+                </div>
+            </div>
             <div class="main__select-input"></div>
             <div class="main__radio-input"></div>
             <div class="main__text-input"></div>
