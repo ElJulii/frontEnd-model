@@ -195,3 +195,25 @@ body {
     border-color: #3A41FF;
 }
 /*End checkbox*/
+
+/*button send*/
+.main__button {
+    background-color: #3A41FF;
+    color: white;
+    padding: 3% 10%;
+    overflow: hidden;
+    box-shadow: 5px 5px 2px black;
+    border-color: transparent;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.main__button:hover {
+    background-color: white;
+    color: #3A41FF;
+    border-color: #3A41FF;
+}
+
+/*End main*/
