@@ -38,7 +38,16 @@
                     <input class="input-range__range input-range__range--max " type="range" min="0" max="150">
                 </div>
             </div>
-            <div class="main__select-input"></div>
+            <div class="main__select-input">
+                <label for="main__select-id">Выберите select</label>
+                <select class="main__select" id="main__select-id" required>
+                    <option value="" disabled selected style="display:none;">Option</option>
+                    <option value="Vite">Vite</option>
+                    <option value="Webpack">Webpack</option>
+                    <option value="Gulp">Gulp</option>
+                </select>
+                <span class="main__select-arrow">▼</span>
+            </div>
             <div class="main__radio-input"></div>
             <div class="main__text-input"></div>
             <div class="main__number-input"></div>
