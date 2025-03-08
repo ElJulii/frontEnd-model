@@ -68,8 +68,15 @@
                     </label>
                 </div>
             </div>
-            <div class="main__text-input"></div>
-            <div class="main__number-input"></div>
+            <div class="main__text-input">
+                <label for="main__text-input-id--name">Введите ФИО</label>
+                <input class="main__text-input--name"  id="main__text-input-id--name" type="text" placeholder="Placeholder" min="2">
+                <span class="main__text-input--waring">Полное имя должно быть верным</span>
+            </div>
+            <div class="main__number-input">
+                <label for="main__number-input-id--number">Введите возраст в цифрах</label>
+                <input class="main__number-input--number" id="main__number-input-id--number" type="number" max="110" min="18">
+            </div>
             <div class="main__input-checkbox"></div>
             <button type="button" class="main__button">
                 Отправить
