@@ -388,4 +388,24 @@ footer {
         width: 48%;
         margin: 0;
     }
+
+    .main__select-arrow {
+        top: 55%;
+        right: 8%;
+    }
+
+    .main__select {
+        margin-top: 10px;
+        width: 100%;
+    }
+    /*input radio*/
+
+    .main__radio-title {
+        margin-bottom: 10px;
+    }
+
+    .main__radio-input div {
+        display: flex;
+        gap: 17%;
+    }
 }
