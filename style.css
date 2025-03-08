@@ -327,4 +327,49 @@ footer {
         padding: 40px 10% 40px 15%;
         line-height: 125%;
     }
+    /*main part*/
+    .main, .footer {
+        padding-left: 15%;
+        padding-right: 11%;
+    }
+
+    .main__title--h2 {
+        text-align: initial;
+    }
+
+    .main__range-title, .main__range-values,
+    .main__range-container, .main__number-input label,
+    .main__number-input--number, .main__text-input label,
+    .main__text-input--name, .main__select-input label,
+    .main__select, .main__radio-title, .main__radio-input div,
+    .main__input-checkbox label {
+        margin: 0;
+    }
+
+    .main__form {
+        display: grid;
+        justify-content: initial;
+        grid-template-rows: repeat(5, auto);
+        grid-template-columns: repeat(2, auto);
+        gap: 20px 30px;
+    }
+
+    .main__range-input, .main__select-input,
+    .main__text-input, .main__button {
+        grid-column-start: 1;
+    }
+
+    .main__radio-input {
+        grid-column-start: 2;
+    }
+
+    .main__input-checkbox {
+        grid-row-start: 4;
+        grid-column: 1/ span 2;
+        display: initial;
+    }
+
+    .main__input-checkbox label:first-child {
+        margin-right: 30px;
+    }
 }
