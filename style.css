@@ -39,3 +39,31 @@ body {
 }
 
 /*End Header*/
+
+/*main*/
+
+.main__title--h2 {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.main__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.main__select-input, .main__radio-input,
+.main__text-input, .main__number-input,
+.main__range-input, .main__input-checkbox  {
+    width: 100%;
+}
+
+.main__text-input--name, .main__select, .main__number-input--number {
+    padding: 10px;
+    border: solid 2px black;
+    width: 67%;
+    margin-top: 10px;
+}
