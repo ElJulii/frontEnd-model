@@ -144,3 +144,17 @@ body {
 }
 
 /*End input radio*/
+
+/*input text name*/
+
+.main__text-input label{
+    display: block;
+}
+
+.main__text-input--waring {
+    display: none;
+    margin-left: 20%;
+    color: red;
+    font-size: 0.7rem;
+}
+/*End input text name*/
