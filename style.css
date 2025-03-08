@@ -67,3 +67,37 @@ body {
     width: 67%;
     margin-top: 10px;
 }
+
+/*range section*/
+
+.main__range-container {
+    position: relative;
+    margin-top: 10px;
+    width: 67%;
+}
+
+.input-range__range {
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    pointer-events: none;
+    border: none;
+}
+
+.input-range__range::-webkit-slider-thumb {
+    pointer-events: auto;
+}
+
+.main__range-values {
+    padding-top: 10px;
+}
+
+.input-range__input-number {
+    width: 40%;
+    border: solid 2px black;
+    padding: 10px;
+    margin: 0 10px 7px 0;
+}
