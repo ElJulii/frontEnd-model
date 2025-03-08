@@ -432,4 +432,20 @@ footer {
     .main__input-checkbox label {
         font-size: 1rem;
     }
+    /*button*/
+
+    .main__button {
+        width: 50%;
+    }
+
+    /*section 3*/
+
+    .main__title--h3, .main__lorem--section-three {
+        text-align: initial;
+    }
+
+    .main__lorem--section-three {
+        padding: 0;
+        font-size: 1.3rem;
+    }
 }
