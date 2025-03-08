@@ -408,4 +408,28 @@ footer {
         display: flex;
         gap: 17%;
     }
+    /*input name and input number*/
+
+    .main__text-input--name, .main__number-input--number {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .main__text-input--waring {
+        margin-left: 0;
+    }
+
+    /*input checkbox*/
+
+    .main__input-checkbox {
+        display: initial;
+        padding: 20px 0;
+    }
+
+    .main__input-checkbox label:first-child {
+        margin-right: 10%;
+    }
+    .main__input-checkbox label {
+        font-size: 1rem;
+    }
 }
