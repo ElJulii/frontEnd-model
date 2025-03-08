@@ -68,6 +68,15 @@ body {
     margin-top: 10px;
 }
 
+.main__range-title, .main__range-values,
+.main__range-container, .main__number-input label,
+.main__number-input--number, .main__text-input label,
+.main__text-input--name, .main__select-input label,
+.main__select, .main__radio-title, .main__radio-input div,
+.main__input-checkbox label {
+    margin-left: 20%;
+}
+
 /*range section*/
 
 .main__range-container {
