@@ -137,3 +137,10 @@ body {
 
 /*End input select*/
 
+/*Input Radio*/
+
+.main__radio-title {
+    margin-bottom: 10px;
+}
+
+/*End input radio*/
