@@ -101,3 +101,38 @@ body {
     padding: 10px;
     margin: 0 10px 7px 0;
 }
+
+/*section select*/
+
+.main__select-input {
+    position: relative;
+}
+
+.main__select-arrow {
+    position: absolute;
+    top: 59%;
+    right: 16%;
+    color: #3A41FF;
+    pointer-events: none;
+    font-size: 0.8rem;
+}
+
+.main__select {
+    width: 67%;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color: #818181;
+    display: inline;
+    cursor: pointer;
+}
+
+.main__select:focus ~ .main__select-arrow {
+    rotate: 200grad;
+}
+
+.main__select option {
+    color: #818181;
+}
+
+/*End input select*/
