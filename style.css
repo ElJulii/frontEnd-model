@@ -372,4 +372,20 @@ footer {
     .main__input-checkbox label:first-child {
         margin-right: 30px;
     }
+    /*select range*/
+
+    .main__range-container {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .main__range-values {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .input-range__input-number {
+        width: 48%;
+        margin: 0;
+    }
 }
