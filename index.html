@@ -117,4 +117,23 @@
 </body>
 <script src="script-range.js"></script>
 <script src="script-radio.js"></script>
+<script>
+
+    //no numbers in input name
+
+    const inputName = document.querySelector('.main__text-input--name');
+    inputName.addEventListener('input', function(event) {
+        const numbers = /\d/g;
+        if (numbers.test(inputName.value)) {
+            inputName.value = inputName.value.replace(numbers, '');
+        }
+    });
+
+    //get current year
+
+    const currentYear = new Date().getFullYear();
+
+    const currentDay = document.querySelector('.footer__current-day');
+    currentDay.innerHTML = currentYear.toString();
+</script>
 </html>
