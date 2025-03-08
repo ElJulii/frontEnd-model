@@ -226,3 +226,16 @@ body {
 }
 
 /*End main*/
+
+/*section 3*/
+
+.main__section-three {
+    margin: 40px 0 10px 0;
+}
+
+.main__title--h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*End section 3*/
