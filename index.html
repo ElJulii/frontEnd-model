@@ -77,7 +77,22 @@
                 <label for="main__number-input-id--number">Введите возраст в цифрах</label>
                 <input class="main__number-input--number" id="main__number-input-id--number" type="number" max="110" min="18">
             </div>
-            <div class="main__input-checkbox"></div>
+            <div class="main__input-checkbox">
+                <label>
+                    <input class="main__checkbox--required main__checkbox" type="checkbox" required>
+                    <span class="main__checkbox-custom">
+                       <span class="main__mark">&#10004;</span>
+                    </span>
+                    Обязательный checkbox
+                </label>
+                <label>
+                    <input class="main__checkbox--no-required main__checkbox" type="checkbox">
+                    <span class="main__checkbox-custom">
+                       <span class="main__mark">&#10004;</span>
+                    </span>
+                    Необязательный checkbox
+                </label>
+            </div>
             <button type="button" class="main__button">
                 Отправить
             </button>
