@@ -7,3 +7,34 @@ body {
     margin: auto;
     font-family: "Source Code Pro", sans-serif;
 }
+
+.header, .main, .footer {
+    max-width: 648dvw;
+}
+
+/*Header*/
+
+.header {
+    padding-top: 20px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.header__title {
+    margin-bottom: 20px;
+}
+
+.header__lorem, .main__lorem--section-three {
+    padding: 0 20px;
+}
+
+.header__container-img {
+    margin-top: 20px;
+}
+
+.header__img {
+    width: 100%;
+    height: auto;
+}
+/*End Header*/
