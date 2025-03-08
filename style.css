@@ -291,3 +291,40 @@ footer {
     font-weight: 700;
 }
 /*End dialog*/
+
+@media screen and (min-width: 648px) {
+    /*Header part*/
+    .header, .main, .footer {
+        width: initial;
+    }
+
+    .header {
+        display: flex;
+        padding: 0;
+        text-align: initial;
+    }
+
+    .header__lorem {
+        padding: 0;
+        font-size: 1.2rem;
+        line-height: 25px;
+    }
+
+    .header__container-img {
+        width: 30%;
+        display: inline;
+        height: auto;
+        margin: 0;
+    }
+
+    .header__img {
+        height: 100%;
+    }
+
+    .header__text-introduction {
+        width: 70%;
+        display: inline-block;
+        padding: 40px 10% 40px 15%;
+        line-height: 125%;
+    }
+}
