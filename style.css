@@ -158,3 +158,40 @@ body {
     font-size: 0.7rem;
 }
 /*End input text name*/
+
+/*input checkbox*/
+.main__input-checkbox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main__checkbox {
+    display: none;
+}
+
+.main__input-checkbox {
+    font-size: 0.8rem;
+}
+
+.main__input-checkbox label {
+    cursor: pointer;
+}
+
+.main__checkbox-custom {
+    border: solid 1px black;
+    cursor: pointer;
+    padding: 2px 1px 0 3px;
+    margin-right: 5px;
+}
+
+.main__mark {
+    font-size: 15px;
+    color: white;
+}
+
+.main__checkbox:checked ~ .main__checkbox-custom {
+    background-color: #3A41FF;
+    border-color: #3A41FF;
+}
+/*End checkbox*/
