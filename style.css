@@ -73,7 +73,7 @@ body {
 .main__number-input--number, .main__text-input label,
 .main__text-input--name, .main__select-input label,
 .main__select, .main__radio-title, .main__radio-input div,
-.main__input-checkbox label {
+.main__input-checkbox label, .main__options-list {
     margin-left: 20%;
 }
 
@@ -177,6 +177,32 @@ body {
     position: relative;
 }
 
+.main__options-list {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    border: solid 2px black;
+    color: #818181;
+    position: absolute;
+    width: 67%;
+    background-color: white;
+}
+
+.main__select:focus ~ .main__options-list {
+    visibility: visible;
+    opacity: 1;
+}
+
+.main__options-list p {
+    padding: 2px 15px;
+    cursor: pointer;
+}
+
+.main__options-list p:hover {
+    background-color: #3A41FF;
+    color: white;
+}
+
 .main__select-arrow {
     position: absolute;
     top: 59%;
@@ -188,21 +214,17 @@ body {
 
 .main__select {
     width: 67%;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
     color: #818181;
     display: inline;
     cursor: pointer;
+    outline: none;
 }
+
 
 .main__select:focus ~ .main__select-arrow {
     rotate: 200grad;
 }
 
-.main__select option {
-    color: #818181;
-}
 
 /*End input select*/
 
@@ -460,13 +482,18 @@ footer {
     }
 
     .main__select-arrow {
-        top: 55%;
-        right: 8%;
+        top: 60%;
+        right: 5%;
     }
 
     .main__select {
         margin-top: 10px;
         width: 100%;
+    }
+
+    .main__options-list {
+        width: 100%;
+        margin: 0;
     }
     /*input radio*/
 

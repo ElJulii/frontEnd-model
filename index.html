@@ -35,18 +35,18 @@
                 </div>
                 <div class="main__range-container">
                     <div class="main__slider-track"></div>
-                        <input class="input-range__range input-range__range--min" type="range" min="0" max="150" >
-                    <input class="input-range__range input-range__range--max " type="range" min="0" max="150">
+                        <input class="input-range__range input-range__range--min" type="range" min="0" max="150" value="50">
+                    <input class="input-range__range input-range__range--max " type="range" min="0" max="150" value="100">
                 </div>
             </div>
             <div class="main__select-input">
                 <label for="main__select-id">Выберите select</label>
-                <select class="main__select" id="main__select-id" required>
-                    <option value="" disabled selected style="display:none;">Option</option>
-                    <option value="Vite">Vite</option>
-                    <option value="Webpack">Webpack</option>
-                    <option value="Gulp">Gulp</option>
-                </select>
+                <input  id="main__select-id" class="main__select" type="text" placeholder="Option" readonly>
+                <div class="main__options-list">
+                    <div><p class="main__option-item">Vite</p></div>
+                    <div><p class="main__option-item">Webpack</p></div>
+                    <div><p class="main__option-item">Gulp</p></div>
+                </div>
                 <span class="main__select-arrow">▼</span>
             </div>
             <div class="main__radio-input">
@@ -146,6 +146,7 @@
 <script src="script-range.js"></script>
 <script src="script-radio.js"></script>
 <script src="script-form.js"></script>
+<script src="script-select.js"></script>
 <script>
 
     //no numbers in input name
