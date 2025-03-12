@@ -3,6 +3,7 @@ const button_form = document.querySelector('.main__button');
 
 //warning about name
 const warning_name = document.querySelector('.main__text-input--waring');
+const warning_checkbox = document.querySelector('.main__input-checkbox--warning');
 
 //dialog
 const dialog = document.querySelector('.dialog');
